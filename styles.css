@@ -1,0 +1,139 @@
+/* Nick Hosine */
+
+/* Web210 */
+
+/* Lesson 3 */
+
+/* Colors to use: https://coolors.co/e8eef2-d6c9c9-c7d3dd-77b6ea-37393a*/
+/*Dark: #37393a (Onyx) */
+/*Light Blue: #77b6ea (Argentinian blue) */
+/*Gray: #c7d3dd (Columbia Blue)*/
+/*Tan: #d6c9c9 (Timberwolf) */
+/*Light #e8eef2 (Alice Blue) */
+
+/* comments
+*/
+
+/* RGB values: https://www.webfx.com/web-design/hex-to-rgb/ */
+
+
+   /* --Global styles ---------------------------- 
+*/
+
+li {float: left}
+li a {background-color: black;
+    padding: 15px 15px;
+    border-right: 5px solid #77b6ea;}
+    ul {list-style-type: none;}
+
+body{
+    color: #37393a;
+    margin: 0;
+    padding: 0;
+    font-family: 'Geologica', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+
+
+/* make images 300px. they should be 600px first though */
+img {
+    width: 300px;
+}
+
+
+
+
+  a {
+    color:  #77b6ea;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1{
+    font-size: 100px;
+    line-height: 1;
+}
+
+h2 {
+    font-size: 45px;
+}
+
+h1, h2 {
+    font-family: 'Pacifico', cursive;
+    font-weight: 400;
+    margin: 0;
+}
+
+
+
+
+
+.content-wrap {
+    width: 800px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+.work-experience {
+    background: #77b6ea;
+}
+
+
+
+/* Profile --------------------
+*/
+
+   header{
+        background: #37393a;
+    color:  #e8eef2;
+}
+
+/* -----Projects ---------------------------- 
+
+*/
+
+.projects {
+    background: #c7d3dd;
+}
+
+.projects a {
+
+}
+
+.projects .btn {
+    color:   #77b6ea;
+    background: #d6c9c9;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.projects .btn:hover {
+    background: rgba(199,211,221,80%);
+}
+
+/* Work Experience 
+*/
+/* ------------------------------------------------------------- */
+
+      .work-experience{
+        background: #77b6ea;
+}
+
+
+/* --------------Education ---------------------------- */
+
+
+
+/* --------------Contact Info ---------------------------- */
+
+footer {
+    background: #d6c9c9; 
+    color:  #37393a;
+}
+
